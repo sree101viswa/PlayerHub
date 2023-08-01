@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .main-div{
     width: 100%;
@@ -8,27 +9,27 @@ body{
 .header{
     width: 100%;
     height: 90px;
-    background-color: #614344;
+    background-color: #943336;
     padding left: 40px;
 }
 .footer{
     width: 100%;
     height: 150px;
-    background-color: rgb(84, 39, 102);
+    background-color:#4b3622;
     float: left;
 }
 .left{
     width: 20%;
     height: 720px;
     float: left;
-    background-color: #9f87af
+    background-color: #8f80cf
     
 }
 .right{
     width: 80%;
     height: 720px;
     float: left;
-    background-color: #88527f
+    background-color: #cacfe2
 }
 .container{
     width: 100%;
@@ -37,7 +38,9 @@ body{
 }
 .head-logo{
     color: white;
-    font-weight: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    font-style: oblique;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
 }
@@ -60,4 +63,34 @@ body{
 .forgot{
     text-decoration: none;
     color: wheat;
+}
+.login-label{
+   color: yellow;
+}
+.sbt-btn{
+    cursor: pointer;
+    background-color: #8f80cf;
+    font-weight: bold;
+    color: whitesmoke;
+    height: 24px;
+    border-color: bisque;
+}
+.td1{
+    height: 40px;
+}
+.sbt-btn:hover{
+    background-color: #943336;
+}
+.head-logo:hover{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.login-label:hover{
+    color:whitesmoke;
+}
+.menu-nav{
+    cursor: pointer;
+    width: 60%;
+    color:rgb(43, 185, 91);
+    align-content: end;
+    float: right;
 }
