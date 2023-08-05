@@ -9,7 +9,7 @@ body{
 .header{
     width: 100%;
     height: 90px;
-    background-color: #943336;
+    background-color: #790909;
     padding left: 40px;
 }
 .footer{
@@ -22,11 +22,15 @@ body{
     width: 20%;
     height: 720px;
     float: left;
-    background-color: #8f80cf
+    background-color: #8f80cf;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     
 }
 .right{
-    width: 80%;
+    width: 78%;
     height: 720px;
     float: left;
     background-color: #cacfe2
@@ -93,4 +97,34 @@ body{
     color:rgb(43, 185, 91);
     align-content: end;
     float: right;
+}
+.img-logo{
+    width: 100%;
+    height: 720px;
+}
+.details{
+    width: 30%;
+    height: 720px;
+    background-color: #e7eff1;
+    float: left;
+    padding-top: 150px;
+    padding-left: 10px;
+}
+.Regn-form{
+    width: 48%;
+    height: 720px;
+    float: left;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+.inpu-col{
+    height: 20px;
+}
+.sub-btn{
+    float: left;
+    height: 30px;
+    width: Auto;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 20px;
 }
